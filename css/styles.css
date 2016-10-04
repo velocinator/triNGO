@@ -4,8 +4,8 @@
     position: relative;
 }
 .overlay{
-    width:50%;
-    height:50%;
+    width:34%;
+    height:34%;
     background-color:white;
     z-index: 10;
     position: absolute;
@@ -20,15 +20,19 @@
     background-image: url("../img/prime_yellow.png");
 }
 
-#overlay2{
+#overlay2, #overlay5, #overlay8{
+    right: 33%;
+}
+
+#overlay3, #overlay6, #overlay9{
     right: 0;
 }
-#overlay3{
-    right: 0;
-    bottom:0;
+
+#overlay4, #overlay5, #overlay6{
+    bottom:33%;
 }
-#overlay4{
-    left:0;
+
+#overlay7, #overlay8, #overlay9{
     bottom:0;
 }
 
