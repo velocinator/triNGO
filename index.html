@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<div id="image">
+<div id="image" style="display:none;">
     <div id="reveal">
         <div id="overlay1" class="overlay"></div>
         <div id="overlay2" class="overlay"></div>
@@ -28,9 +28,12 @@
         <div id="overlay7" class="overlay"></div>
         <div id="overlay8" class="overlay"></div>
         <div id="overlay9" class="overlay"></div>
-        <img src="img/stash/1.jpg" width="256"/>
+        <img id="hiddenimg" src="http://i.imgur.com/2o9YCyU.jpg" width="800"/>
     </div>
 </div>
+<h1 class="initial">Enter the URL of the image you want to hide</h1>
+<input type="text" name="url" class="initial" id="url">
+<button id="submit" class="initial">Submit</button>
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
