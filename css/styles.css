@@ -1,3 +1,11 @@
+body{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
 #image, #reveal{
     width: 256px;
     height: 256px;
@@ -42,7 +50,6 @@ img{
 #overlay7, #overlay8, #overlay9{
     bottom:0;
 }
-
 .overlay{
     cursor:pointer;
 }
