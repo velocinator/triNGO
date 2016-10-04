@@ -1,5 +1,5 @@
-jQuery(function(){
-    jQuery('.overlay').click(function(){
+$(function(){
+    $('.overlay').click(function(){
         $(this).toggle();
     });
 });
