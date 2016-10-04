@@ -3,7 +3,7 @@
     height: 128px;
     position: relative;
 }
-#overlay1{
+.overlay{
     width:50%;
     height:50%;
     background-color:white;
@@ -11,33 +11,17 @@
     position: absolute;
 }
 #overlay2{
-  width:50%;
-    height:50%;
-    background-color:white;
-    z-index: 1000;
-    position: absolute;
     right: 0;
 }
 #overlay3{
-  width:50%;
-    height:50%;
-    background-color:white;
-    z-index: 100;
-    position: absolute;
     right: 0;
     bottom:0;
 }
 #overlay4{
-  width:50%;
-    height:50%;
-    background-color:white;
-    z-index: 10;
-    position:absolute;
     left:0;
     bottom:0;
 }
 
-ul li{
-cursor:pointer;
-
+.overlay{
+    cursor:pointer;
 }
