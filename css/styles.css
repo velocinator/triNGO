@@ -26,8 +26,8 @@ img{
 }
 
 .overlay{
-    width:34%;
-    height:34%;
+    width:33.45%;
+    height:33.45%;
     background-color:white;
     z-index: 10;
     position: absolute;
@@ -59,4 +59,8 @@ img{
 }
 .overlay{
     cursor:pointer;
+}
+
+#overlay5{
+    background-image: url("../img/sub_orange.png");
 }
