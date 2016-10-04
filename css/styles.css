@@ -7,10 +7,16 @@ body{
   user-select: none;
 }
 
-#image, #reveal{
+#image, #reveal, #image_container{
     width: 800px;
     height: 800px;
     position: relative;
+}
+
+#image_container{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 img{

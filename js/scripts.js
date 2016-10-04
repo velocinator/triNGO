@@ -4,9 +4,9 @@ $(function(){
     });
     $('#submit').click(function(){
         var hidden = $('#url').val();
-        $('#hiddenimg').attr("src", hidden);
+        $('#image_container').css("background-image", 'url(\'' + hidden + '\')');
         $('.initial').toggle();
         $('#image').toggle();
-        //$('body').css('background-color', 'fuschia')
+        $('body').css('background-color', '#00ff00')
     });
 });
