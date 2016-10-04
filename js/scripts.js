@@ -10,4 +10,3 @@ $(function(){
         //$('body').css('background-color', 'fuschia')
     });
 });
-
